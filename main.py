@@ -7,7 +7,7 @@ st.set_page_config(page_title="Fisika Inti", page_icon=":chart_with_upwards_tren
 with st.container():
 	st.title("Tugas Akhir Fisika Inti") 
 	st.write("sebenarnya ngga perlu dibikin webnya sih, cuma gara - gara ngga bisa tidur. HELP!!!! :persevere:")
-	st.write("[kepoin kodenya disini :point_left:](#)")
+	st.write("[kepoin kodenya disini :point_left:](https://github.com/MuktiIngsun/fisika-inti.git)")
 
 with st.container():
 	st.write("---")
