@@ -18,7 +18,8 @@ with st.container():
 		st.write(dataframe)
 		A = dataframe[0].to_numpy
 		Z = dataframe[1].to_numpy
-		Be = dataframe[2].to_numpy/1000
+		Be1 = dataframe[2].to_numpy
+		Be = Be1/1000
 		N = A - Z
 		ex = Be/A
 		# Parameter yang digunakan.
