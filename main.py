@@ -30,13 +30,13 @@ with st.container():
 		# SEMF
 		E = (aV - aS / A**(1/3) - aC * Z**2 / A**(4/3) - aA * (A-2*Z)**2/A**2 + sgn * delta/A**(3/2))
 		# Plotting
-		# st.subheader("BE/A hasil eksperimen")
-		# fig1, ax = plt.subplots()
-		# ax.set_title('BE/A hasil eksperimen')
-		# ax.set_xlabel('A')
-		# ax.set_ylabel('BE(MeV)/A Eksperimen')
-		# ax.plot(A, ex, 'b*')
-		# st.pyplot(fig1) 
+		st.subheader("BE/A hasil eksperimen")
+		fig1, ax = plt.subplots()
+		ax.set_title('BE/A hasil eksperimen')
+		ax.set_xlabel('A')
+		ax.set_ylabel('BE(MeV)/A Eksperimen')
+		ax.plot(A, ex, 'b*')
+		st.pyplot(fig1) 
 
 		st.subheader("BE hasil perhitungan model SEM")
 		fig2, ax = plt.subplots()
