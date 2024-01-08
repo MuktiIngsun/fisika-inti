@@ -16,10 +16,9 @@ with st.container():
 	if uploaded_file is not None:
 		dataframe = pd.read_csv(uploaded_file,sep='\s+',header=None)
 		st.write(dataframe)
-		A = dataframe[0].to_numpy
-		Z = dataframe[1].to_numpy
-		Be1 = dataframe[2].to_numpy
-		Be = Be1/1000
+		A = dataframe[0].to_numpy()
+		Z = dataframe[1].to_numpy()
+		Be = (dataframe[2].to_numpy()/1000)
 		N = A - Z
 		ex = Be/A
 		# Parameter yang digunakan.
